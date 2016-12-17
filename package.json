@@ -1,0 +1,23 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "switbai twiiter-bot",
+  "main": "bot.js",
+  "scripts": {
+    "start" : "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[A\u001b[B"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "traction"
+  ],
+  "author": "h@ykinz",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
+}
