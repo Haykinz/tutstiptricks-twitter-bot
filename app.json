@@ -1,0 +1,29 @@
+{
+  "name": "tutstiptricks-twitter-bot",
+  "scripts": {
+  },
+  "env": {
+    "BOT_ACCESS_TOKEN": {
+      "required": true
+    },
+    "BOT_ACCESS_TOKEN_SECRET": {
+      "required": true
+    },
+    "BOT_CONSUMER_KEY": {
+      "required": true
+    },
+    "BOT_CONSUMER_SECRET": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
