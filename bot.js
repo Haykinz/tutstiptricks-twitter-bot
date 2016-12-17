@@ -12,7 +12,7 @@ var Twitter = new twit(config);
 // find latest tweet according the query 'q' in params
 var retweet = function() {
     var params = {
-        q: '#Elearning OR #Adsense OR #africaneducation OR #videolearning #OnlineCourses OR #np OR #tutorials OR #Web_Development OR #BusinessCoaching OR #Business_Coaching OR #BusinessStartup OR #Africa OR #coding',  // REQUIRED
+        q: '#Elearning OR #OnlineCourses OR #tutorials OR #Startup OR #marketing OR #Web_Development OR #Tips OR #Tricks OR #TipsandTricks OR #Tutorial OR #BusinessStartup OR #coding',  // REQUIRED
         result_type: 'recent',
         lang: 'en'
     }
